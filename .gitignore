@@ -1,0 +1,29 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User specific files
+*.suo
+*.user
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Others
+.sass-cache/
+node_modules/
+bower_components/
+~$*
+*~
+[Tt]humbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.swp
+
